@@ -12,14 +12,14 @@ function hasTargetSum(array, target) {
   return false;
 }
 
-// O(n) runtime
+// this function has O(n) runtime
 function findSock(array) {
   for (const item of array) {
     if (item === "sock") return "sock";
   }
 }
 
-// O(1) runtime
+//  this function adds O(1) runtime
 function findSock(object) {
   if (object.sock) return "sock";
 }
